@@ -1,0 +1,193 @@
+html{
+    font-family: Arial, sans-serif;}
+/*CABEÇALHO DA PÁGINA*/
+header{
+    min-width: 960px;
+    min-height: 60px;
+    display: flex;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;}
+#Logo img{
+    padding-left: 25px;
+    height: 100px;}
+#navegação{
+    display: flex;
+    align-items: center;}
+#navegação a{
+    text-decoration: none;
+    color: white;}
+#navegação ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f5a6e1;
+    border-radius: 25px;}
+#navegação ul li:hover{
+    background-color: #92588d;
+    cursor: pointer;}
+.busca{
+    background-color:#f5a6e1;
+    border:solid 2px #92588d;
+    border-radius:25px;
+    float: right;
+    padding: 10px;
+    position: relative;
+    left: 350px;}
+.busca img{
+    float: left;
+    height:30px;
+    width:32px;}
+#pesquisar{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;}
+#btnBusca{
+    border:none;
+    float:left;
+    height:34px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#da92c8;
+    color: white;
+    cursor: pointer;}
+/*FIM DO CABEÇALHO*/
+
+/*ARTIGO*/
+.artigos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 330px;
+    width: 78vw;
+    margin-top: 20px;
+    float: left;}
+.artigos div{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 5px 5px 2px rgb(141, 20, 101);
+    position: relative;}
+.artigos p{
+    font-size: 18px;}
+/*FIM DO ARTIGO*/
+
+/*APRESENTAÇÃO*/
+.localização{
+    height: 330px;
+    margin-top: 20px;
+    width: 78vw;
+    float: left;
+    border-radius: 20px;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 5px 5px 2px rgb(141, 20, 101);}
+#local img{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 10px;}
+#local{
+    display: flex;
+    flex-direction: row;}
+#local div{
+    position: relative;
+    left: 15px;}
+.localização h2{
+    position: relative;
+    left: 10px;}
+/*FIM DA APRESENTAÇÃO*/
+
+/*ASIDES SERVIÇOS/NOTICIAS*/
+#Serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px;
+    width: 16vw;
+    float: right;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;
+    margin-top: 50px;}
+#Serviços div{
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;}
+#Serviços img{
+    height: 100px;
+    width: 100px;}
+#Serviços p{
+    text-align: center;
+    font-size: 20px;}
+#Serviços button{
+    text-decoration: none;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #f5a6e1;
+    cursor: pointer;}
+#Serviços button:hover{
+    background-color: #92588d;}
+#Serviços h2{
+    text-align: center;}
+#Serviços a{
+    color:white;
+    text-decoration: none;}
+/*FIM DE ASIDES SERVIÇOS/NOTICIAS*/
+
+/*AGENDAMENTOS*/
+#agendamento{
+    position: relative;
+    top: 70px;
+    width: 400px;
+    float: left;}
+#agendamento div{
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;
+    display: flex;
+    height: 60px;
+    margin-top: 10px;}
+#agendamento img{
+    height: 40px;
+    width: 40px;
+    padding: 10px;}
+#agendamento p{
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;}
+/*FIM DE AGENDAMENTOS*/
+
+/*RODAPÉ*/
+#rodape{
+    width: 1275px;
+    min-height: 60px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(187, 89, 158);
+    box-shadow: 3px 3px 1px rgb(141, 20, 101);
+    border-radius: 30px;}
+#rodape div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;}
+#rodape img{
+    height: 20px;
+    padding: 5px}
+#rodape li{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    text-decoration: none;}
